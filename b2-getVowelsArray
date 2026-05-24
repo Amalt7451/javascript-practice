@@ -1,0 +1,9 @@
+function getVowelsArray(str){
+    let vowelsArray=[];
+    for(let i=0;i<str.length;i++){
+        if(str[i]==="a"|| str[i]==="e"|| str[i]==="i"|| str[i]==="o"|| str[i]==="u")vowelsArray.push(str[i]);
+    }
+    return vowelsArray;
+}
+console.log(getVowelsArray("javascript"));
+    
